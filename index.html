@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Oficinas LTD | Desenvolvimento Full Stack, IA, SecOps e DevOps</title>
+    <meta
+      name="description"
+      content="Inscricoes para a trilha de oficinas noturnas do Laboratorio de Transformacao Digital da Estacio."
+    />
+    <meta name="theme-color" content="#0057b8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteudo</a>
+
+    <header class="site-header">
+      <div class="shell site-header__inner">
+        <a class="brandmark" href="#topo" aria-label="Inicio">
+          <span class="brandmark__pulse" aria-hidden="true"></span>
+          <span class="brandmark__text">LTD | Estacio</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Navegacao principal">
+          <a href="#oficinas">Oficinas</a>
+          <a href="#cronograma">Cronograma</a>
+          <a href="#participacao">Participacao</a>
+          <a class="nav-cta" data-application-link target="_blank" rel="noopener">Inscrever-se</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="section hero" id="topo">
+        <div class="hero__mesh" aria-hidden="true"></div>
+        <div class="hero__halo hero__halo--left" aria-hidden="true"></div>
+        <div class="hero__halo hero__halo--right" aria-hidden="true"></div>
+
+        <div class="shell hero__content">
+          <p class="hero__eyebrow">Laboratorio de Transformacao Digital</p>
+          <img class="hero__logo" src="assets/img/logo-estacio.jpeg" alt="Logo Estacio" />
+          <p class="hero__lab">Trilha pratica para alunos</p>
+          <h1 class="hero__title">Oficinas LTD</h1>
+          <p class="hero__subtitle">Full Stack, Inteligencia Artificial, Ciberseguranca e DevOps</p>
+          <p class="hero__institution">
+            Uma jornada noturna para construir, integrar, proteger e publicar uma aplicacao web real.
+            <span>Todas as oficinas acontecem das 18:30 as 21:10.</span>
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary button--large" data-application-link target="_blank" rel="noopener">
+              Fazer inscricao
+            </a>
+            <a class="button button--secondary button--large" href="#oficinas">Ver oficinas</a>
+          </div>
+
+          <div class="hero__opening reveal" id="hero-opening"></div>
+          <div class="hero__stats" id="hero-stats"></div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="oficinas">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="section-heading__eyebrow">Programa</p>
+            <h2 class="section-heading__title">Quatro encontros para sair do zero ao deploy</h2>
+            <p class="section-heading__text">
+              Cada oficina entrega uma etapa concreta do produto, evoluindo da base full stack ate a
+              publicacao com automacao e observabilidade.
+            </p>
+          </div>
+
+          <div class="edital-grid" id="workshops-grid"></div>
+        </div>
+      </section>
+
+      <section class="section section--accent" id="cronograma">
+        <div class="shell">
+          <div class="section-heading section-heading--light">
+            <p class="section-heading__eyebrow">Datas</p>
+            <h2 class="section-heading__title">Cronograma das oficinas</h2>
+            <p class="section-heading__text">
+              Encontros noturnos, sempre das 18:30 as 21:10, com foco em pratica de laboratorio.
+            </p>
+          </div>
+
+          <div class="timeline-grid" id="timeline-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="participacao">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="section-heading__eyebrow">Inscricoes</p>
+            <h2 class="section-heading__title">Como participar</h2>
+            <p class="section-heading__text">
+              A inscricao sera realizada por formulario do Google. O botao abaixo direciona o aluno para
+              o Forms oficial da atividade.
+            </p>
+          </div>
+
+          <div class="metrics-grid" id="participation-grid"></div>
+        </div>
+      </section>
+
+      <section class="section final-cta">
+        <div class="shell">
+          <div class="final-cta__panel reveal">
+            <p class="final-cta__eyebrow">Vagas abertas</p>
+            <h2 class="final-cta__title">Garanta sua participacao na trilha</h2>
+            <p class="final-cta__text">
+              Inscreva-se para acompanhar a sequencia completa de oficinas do LTD e desenvolver uma
+              aplicacao com tecnologias usadas no mercado.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary button--large" data-application-link target="_blank" rel="noopener">
+                Abrir formulario de inscricao
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell site-footer__inner">
+        <div>
+          <p class="site-footer__title">Laboratorio de Transformacao Digital</p>
+          <p class="site-footer__text">Centro Universitario Estacio do Ceara</p>
+        </div>
+        <div>
+          <p class="site-footer__title">Horario</p>
+          <p class="site-footer__text">18:30 as 21:10</p>
+        </div>
+        <div>
+          <p class="site-footer__title">Formato</p>
+          <p class="site-footer__text">Oficinas praticas para alunos</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/content.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

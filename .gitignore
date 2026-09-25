@@ -1,0 +1,11 @@
+LTD_Edital_2026.1
+logo_estacio.jpeg
+assets/docs/edital-01-2026-1.pdf
+assets/docs/edital-01-2026-1-publicacao.pdf
+.DS_Store
+node_modules/
+dist/
+2026.1/
+.venv-pdf/
+*.bak-template
+.git-corrompido-backup-*/
