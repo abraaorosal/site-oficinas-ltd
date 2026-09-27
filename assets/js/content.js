@@ -1,6 +1,6 @@
 // Edite os dados abaixo para atualizar rapidamente o site.
 window.siteContent = {
-  applicationUrl: "https://forms.gle/8Kr3SxFFaxkMeWK78",
+  applicationUrl: "https://forms.gle/PZR2Cw9mPNHGarxF8",
   openingText:
     "O Laboratorio de Transformacao Digital convida os alunos para uma trilha de oficinas praticas em desenvolvimento web, inteligencia artificial, ciberseguranca e DevOps. A proposta e construir uma aplicacao funcional, evoluir com IA, testar a seguranca e publicar o produto final.",
   heroStats: [
